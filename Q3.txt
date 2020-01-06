@@ -1,0 +1,8 @@
+Q3) Why are the top three companies in the 'sum' chart, different from the top three in 'average'?
+
+Number of Years data for companies { Exxon Mobil, General Electric, Intl. Business Machines } = 51
+Number of Years data for companies { Citigroup, Bank of America Corp., Microsoft } = 11
+
+Hence there is quite a difference in the number of years between two sets of companies, hence its possible average is greater for { Citigroup, Bank of America Corp., Microsoft } than { Exxon Mobil, General Electric, Intl. Business Machines }.
+
+Also, the profit in some of the years of { Exxon Mobil, General Electric, Intl. Business Machines } are outliers (low profit) that brought the average(profit) down but the sum(profit) is still higher.

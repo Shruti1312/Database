@@ -1,0 +1,7 @@
+Q2. What are the top three companies with the highest average profit?
+Ans. Top three companies with the highest average profit :
+     1. Citigroup
+     2. Bank of America Corp.
+     3. Microsoft
+
+ note : Please refer snapshot of the same query from file "Q2_snapshot.png" in the same folder.
