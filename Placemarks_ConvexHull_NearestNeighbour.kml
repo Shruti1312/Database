@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.0">
+<Document>
+<Style id="z1">
+<IconStyle><Icon><href>http://www.google.com/intl/en_us/mapfiles/ms/micons/blue-dot.png</href></Icon></IconStyle>
+</Style>
+<Style id="RedLine">
+<LineStyle><color>641400FF</color><width>5</width></LineStyle>
+</Style>
+<Placemark id="Query1"><name>Convex Hull</name>
+<LineString><coordinates>-118.2904,34.02 -118.2822,34.021 -118.2816,34.0217 -118.2817,34.0294 -118.2879,34.0241 -118.2904,34.02</coordinates></LineString>
+</Placemark>
+
+<Placemark id="Query2_Part1"><name>Nearest First Neighbour</name>
+<styleUrl>#RedLine</styleUrl>
+<LineString><coordinates>-118.2817,34.0294 -118.2866,34.0241</coordinates></LineString>
+</Placemark>
+
+<Placemark id="Query2_Part2"><name>Nearest Second Neighbour</name>
+<styleUrl>#RedLine</styleUrl>
+<LineString><coordinates>-118.2817,34.0294 -118.2816,34.0217</coordinates></LineString>
+</Placemark>
+
+<Placemark id="Query2_Part3"><name>Nearest Third Neighbour</name>
+<styleUrl>#RedLine</styleUrl>
+<LineString><coordinates>-118.2817,34.0294 -118.2835,34.0218</coordinates></LineString>
+</Placemark>
+
+<Placemark id="Query2_Part4"><name>Nearest Fourth Neighbour</name>
+<styleUrl>#RedLine</styleUrl>
+<LineString><coordinates>-118.2817,34.0294 -118.2830,34.0216</coordinates></LineString>
+</Placemark>
+
+<Placemark><name>Home</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.2817,34.0294</coordinates></Point>
+</Placemark>
+<Placemark><name>Uytengsu Aqua</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.2879,34.0241</coordinates></Point>
+</Placemark>
+<Placemark><name>Barbara</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.2835,34.0218</coordinates></Point>
+</Placemark>
+<Placemark><name>Leavy Library</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.2830,34.0216</coordinates></Point>
+</Placemark>
+<Placemark><name>McCarthy Way</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.2822,34.0210</coordinates></Point>
+</Placemark>
+<Placemark><name>ALI</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.2816,34.0217</coordinates></Point>
+</Placemark>
+<Placemark><name>Eileen Dental</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.2866,34.0241</coordinates></Point>
+</Placemark>
+<Placemark><name>Heritage Hall</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.2864,34.0228</coordinates></Point>
+</Placemark>
+<Placemark><name>Physical Edu</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.2870,34.0215</coordinates></Point>
+</Placemark>
+<Placemark><name>SGM</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.2891,34.0219</coordinates></Point>
+</Placemark>
+<Placemark><name>Ronald Tutor</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.2896,34.0204</coordinates></Point>
+</Placemark>
+<Placemark><name>Ethel Percy</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.2904,34.0200</coordinates></Point>
+</Placemark>
+</Document></kml>
